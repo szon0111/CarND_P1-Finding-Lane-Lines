@@ -6,7 +6,7 @@
 Overview
 ---
 
-Using OpenCV image analysis techniques to identify lines, including Hough transforms and Canny edge detection.
+Use OpenCV image analysis techniques to identify lines, including Hough transforms and Canny edge detection.
 
 Videos with Lane Lines Drawn
 ---
