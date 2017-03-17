@@ -1,9 +1,9 @@
-#**Finding Lane Lines on the Road** 
+# **Finding Lane Lines on the Road** 
 
 
 ### Reflection
 
-###1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 My pipeline(the function process_image) consisted of 6 steps:
 
@@ -16,12 +16,12 @@ My pipeline(the function process_image) consisted of 6 steps:
 
 
 
-###2. Identify potential shortcomings with your current pipeline
+### 2. Identify potential shortcomings with your current pipeline
 
 The lines shake quite a lot in the last two videos.
 I am also guessing that the current pipeline can be affected by white or yellow cars within the hsv color threshold values if they are close enough.
 Snow on the road will completely destroy my current pipeline...
 
-###3. Suggest possible improvements to your pipeline
+### 3. Suggest possible improvements to your pipeline
 
 As for the shaking lines in the videos, the lines will be smoother if averaged over more frames, such as the previous 10 frames.
